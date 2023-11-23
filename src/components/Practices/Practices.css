@@ -1,5 +1,24 @@
-.heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  height: 324px;
+  width: 52vw;
+  border-radius: 5px;
+}
+.item2 {
+  height: 324px;
+  width: 25vw;
+  border-radius: 8px;
+}
+
+.practice-img{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 8px;
+}
