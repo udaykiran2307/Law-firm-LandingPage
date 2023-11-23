@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 3rem;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon-img{
+    margin-right:5px;
+    width:30.41px;
+    height:30.3px;
+}
+
+.item{
+     
+    margin-right: 1rem;
+}
+
+.nav-btn{
+    color:white;
+    background-color: var(--css-black);
+    border: 2px solid var(--css-white);
+}
