@@ -1,0 +1,24 @@
+.hero-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 3rem 0rem 3rem;
+}
+.hero-intro-text {
+  margin-top: 1rem;
+}
+.head-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.head-desc {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-btn{
+    background-color: var(--css-primary) !important;
+    border-radius:10px;
+    border-color: var(--css-black) !important;
+    width:90px;
+}
