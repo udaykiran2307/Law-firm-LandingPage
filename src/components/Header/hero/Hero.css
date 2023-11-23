@@ -3,9 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 0rem 3rem 0rem 3rem;
+  background-color: rgb(7, 7, 7);
 }
 .hero-intro-text {
   margin-top: 1rem;
+  max-width: 50vw;
 }
 .head-text {
   margin-top: 1rem;
@@ -15,7 +17,12 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
+.hero-intro-img{
+    
+}
+span{
+    display: block;
+}
 .hero-btn{
     background-color: var(--css-primary) !important;
     border-radius:10px;
