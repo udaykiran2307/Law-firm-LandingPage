@@ -4,6 +4,8 @@ import './index.css'
 import Navbar from'./components/Header/navbar/'
 import Hero from './components/Header/hero'
 import Intro from './components/Intro';
+import Card from "./components/Choose/index"
+import Practices from './components/Practices';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
      <Navbar/>
      <Hero/>
      <Intro/>
+     <Card/>
+     <Practices/>
     </div>
   );
 }

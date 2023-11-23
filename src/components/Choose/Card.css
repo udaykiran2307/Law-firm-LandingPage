@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    height:377px;
+    width:24.6vw;
+    /* margin:5rem; */
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.card-img{
+    width:5rem;
+    height:5rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 14px;
+    
+}
+
+.card-btn{
+    width:8vw;
+    height:2.5rem;
+    border-radius: 23.5px;
+    background-color: var(--css-primary);
+    padding:8px;
+}
+
+.heading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
