@@ -1,0 +1,16 @@
+
+.footer{
+    width:100%;
+    height:367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+
+}
