@@ -10,5 +10,31 @@
     align-items: center;
     margin-top: 4rem;
     background-color: #323232;
+    
+}
 
+.input-name{
+    width:8rem;
+    height:2rem;
+    border-radius:8px 0px 0px 8px;
+    margin-right: 3px;
+    padding: 5px;
+}
+
+.input-Email{
+    width:15rem;
+    height:2rem;
+    /* border-radius: 0px 8px 8px 0px; */
+    margin-right: 3px;
+    padding: 5px;
+}
+
+.sub-btn{
+    width:3rem;
+    height:2rem;
+    background-color: var(--css-primary);
+    border-radius: 0px 8px 8px 0px;
+    font-size: 10px;
+    padding: 10px;
+    font-weight: 700 ;
 }

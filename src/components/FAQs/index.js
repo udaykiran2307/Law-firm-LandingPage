@@ -4,7 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ControlPointIcon from "@mui/icons-material/ControlPoint";
-
+import'./faq.css'
 export default () => {
   return (
     <div className='faq-section'>
