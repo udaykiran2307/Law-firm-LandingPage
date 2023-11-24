@@ -3,11 +3,11 @@ import './Card.css'
 export const Card = ({cardText ,display}) => {
   return (
     <div className="card" style={{backgroundColor:display}}>
-      <div className='card-img' style={{margin:'1rem'}}>
+      <div className='card-img' style={{margin:'0.5rem'}}>
         <img src="Union.png" alt='union-icon' ></img>
       </div>
-      <h3 style={{margin:'1rem'}}>{cardText}% Sucsess Rate</h3>
-      <p style={{margin:'1rem'}}>
+      <h3 style={{margin:'0.5rem'}}>{cardText}% Sucsess Rate</h3>
+      <p style={{margin:'0.5rem'}}>
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequatduis enim velit mollit Exer.
       </p>

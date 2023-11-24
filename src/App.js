@@ -6,7 +6,9 @@ import Hero from './components/Header/hero'
 import Intro from './components/Intro';
 import Card from "./components/Choose/index"
 import Practices from './components/Practices';
-
+import ClientReview from './components/ClientReview';
+import OurTeam from './components/OurTeam';
+import FAQs from './components/FAQs';
 function App() {
   return (
     <div >
@@ -15,6 +17,9 @@ function App() {
      <Intro/>
      <Card/>
      <Practices/>
+     <ClientReview/>
+     <OurTeam/>
+     <FAQs/>
     </div>
   );
 }

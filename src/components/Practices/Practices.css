@@ -8,11 +8,13 @@
   height: 324px;
   width: 52vw;
   border-radius: 5px;
+  position: relative;
 }
 .item2 {
   height: 324px;
   width: 25vw;
   border-radius: 8px;
+  position:relative;
 }
 
 .practice-img{
@@ -21,4 +23,15 @@
     overflow: hidden;
     object-fit: cover;
     border-radius: 8px;
+}
+.practice-txt{
+    position:absolute;
+    bottom:3rem;
+    left:25rem;
+}
+
+.practice-txt-item{
+    position:absolute;
+    bottom:3rem;
+    left:6rem;
 }
