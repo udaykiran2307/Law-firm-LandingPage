@@ -8,6 +8,16 @@
     margin-bottom: 1rem;
 }
 
+@media (max-width:700px) {
+    .head{
+        display: flex;
+        flex-direction:column;
+        gap:3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
 .swiper{
     display: flex;
     gap: 1rem;
@@ -38,7 +48,7 @@
 
 
 .Card{
-   width:25vw;
+   min-width:25vw;
    height:368px; 
    display: flex;
    flex-direction: column;
@@ -77,4 +87,5 @@
     display:flex;
     justify-content: center;
     gap:3rem;
+    flex-wrap: wrap;
 }

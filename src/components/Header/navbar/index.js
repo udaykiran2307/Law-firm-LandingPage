@@ -1,9 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
 import "./navbar.css";
 
-export const NavIcon = () => {
+export const NavIcon = ({position}) => {
   return (
-    <div className="nav-icon">
+    <div className={position}>
       <img
         src="Vectorlaw-icon.png"
         alt="nav-icon"
@@ -14,9 +14,9 @@ export const NavIcon = () => {
   );
 };
 
-export const NavItems = () =>{
+export const NavItems = ({position}) =>{
 
-  return(<div className="nav-items">
+  return(<div className={position}>
   <p className="item">Home</p>
   <p className="item">Attorneys</p>
   <p className="item">Practice Areas</p>
@@ -27,8 +27,8 @@ export const NavItems = () =>{
 export default () => {
   return (
     <div className="navbar">
-      <NavIcon/>
-      <NavItems/>
+      <NavIcon position={'nav-icon nav-head-icon'}/>
+      <NavItems position={'nav-items nav-head'}/>
       <button className="nav-btn">Contact Now</button>
     </div>
   );

@@ -4,12 +4,12 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ControlPointIcon from "@mui/icons-material/ControlPoint";
-import'./faq.css'
+import "./faq.css";
 export default () => {
   return (
-    <div className='faq-section'>
+    <div className="faq">
       <h1>FAQ</h1>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="faq-section">
         <p>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint.{" "}

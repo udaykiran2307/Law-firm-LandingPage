@@ -4,7 +4,7 @@
     justify-content: center;
     align-items:start;
     height:377px;
-    width:24.6vw;
+    width:300px;
     /* margin:5rem; */
     border: 1px solid grey;
     border-radius: 8px;
@@ -20,7 +20,7 @@
 }
 
 .card-btn{
-    width:8vw;
+    min-width:8vw;
     height:2.5rem;
     border-radius: 23.5px;
     background-color: var(--css-primary);
@@ -31,4 +31,13 @@
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+@media (max-width:900px) {
+    .choose-card-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    }
 }

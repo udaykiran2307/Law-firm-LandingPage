@@ -1,7 +1,12 @@
+.practice-heading{
+  width:100%;
+  
+}
 .heading {
   display: flex;
   justify-content: center;
   align-items: center;
+  width:100%;
 }
 
 .item1 {
@@ -34,4 +39,24 @@
     position:absolute;
     bottom:3rem;
     left:6rem;
+}
+
+@media(max-width:900px){
+  .practice-txt{
+    position:absolute;
+    bottom:1rem;
+    left:2rem;
+}
+.item1 {
+  height: 324px;
+  min-width: 52vw;
+  border-radius: 5px;
+  position: relative;
+}
+.item2 {
+  height: 324px;
+  min-width: 200px;
+  border-radius: 8px;
+  position:relative;
+}
 }

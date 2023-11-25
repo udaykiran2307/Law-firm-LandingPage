@@ -1,5 +1,14 @@
 
 
-.faq-section{
+.faq{
   padding:4rem;
+  width:100%;
+}
+
+@media (max-width:700px) {
+  .faq-section{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+  }
 }

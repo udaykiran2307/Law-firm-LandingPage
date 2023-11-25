@@ -9,7 +9,7 @@ import "../Header/navbar/navbar.css";
 import "./Footer.css";
 const SocialItems = () => {
   return (
-    <div style={{ display: "flex", gap: "10px" }}>
+    <div style={{ display: "flex", gap: "10px" }} className="social-items">
       <FaInstagram className="footer-icon" />
       <FaFacebookSquare className="footer-icon" />
       <FaTwitterSquare className="footer-icon" />
@@ -18,12 +18,14 @@ const SocialItems = () => {
   );
 };
 
+
+//position={'nav-icon footer-icon'}
 export default () => {
   return (
     <div className="footer">
       <div className="nav-items">
-        <NavIcon />
-        <NavItems />
+        <NavIcon  position={'nav-icon nav-icon-footer'}/>
+        <NavItems position='nav-items footer-nav'/>
         <SocialItems />
       </div>
       <div className="footer-end">
