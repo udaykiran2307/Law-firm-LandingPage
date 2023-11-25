@@ -1,0 +1,38 @@
+
+
+.intro-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    gap:1rem;
+    margin-left: 4rem;
+}
+
+.line{
+    width:3px;
+    height:10rem;
+    max-height: 10rem;
+    background-color: grey;
+
+}
+
+
+@media (max-width:750px) {
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem;
+        gap:1rem;
+        margin-left: 4rem;
+    }
+    .line{
+        width:10rem;
+        height:3px;
+        max-height: 10rem;
+        background-color: grey;
+    
+    }
+}
